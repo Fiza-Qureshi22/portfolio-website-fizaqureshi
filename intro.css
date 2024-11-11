@@ -1,0 +1,137 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #0a192f; /* Dark Blue background */
+    color: #ccd6f6; /* Light Blue text */
+    width: 100%;
+   
+    
+  }
+  
+  /* Container Styling */
+  .container {
+    width: 100%; /* Set width to 100% */
+    max-width: 1200px; /* Max width for larger screens */
+    margin: 40px auto;
+    padding: 40px; /* Increased padding for more spacing */
+    background: #112240; /* Slightly lighter Dark Blue background */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+    border-radius: 10px; /* Increased border-radius */
+  }
+  
+  /* Header and Navbar Styling */
+  .header {
+    background: #0a192f;
+    padding: 20px 0; /* Increased padding */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Increased gap between navbar items */
+  }
+  
+  .navbar a {
+    color: #64ffda; /* Accent Color */
+    text-decoration: none;
+    padding: 15px 20px; /* Increased padding */
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .navbar a:hover {
+    background: #64ffda;
+    color: #0a192f;
+    border-radius: 5px; /* Increased border-radius on hover */
+  }
+  
+  /* Intro Section Styling */
+  .intro {
+    padding-top: 80px; /* Adjusted padding to account for fixed header */
+  }
+  
+  .intro h1 {
+    text-align: center;
+    font-size: 3rem; /* Increased font size */
+    margin-bottom: 30px; /* Increased margin */
+    color: #64ffda;
+  }
+  
+  .intro p {
+    text-align: center;
+    margin-bottom: 40px; /* Increased margin */
+    font-size: 1.4rem; /* Increased font size */
+  }
+  
+  /* Section Styling */
+  section {
+    margin-bottom: 50px; /* Increased margin */
+  }
+  
+  section h2 {
+    font-size: 2rem; /* Increased font size */
+    margin-bottom: 20px; /* Increased margin */
+    color: #64ffda;
+    border-bottom: 3px solid #64ffda; /* Increased border size */
+    padding-bottom: 10px; /* Increased padding */
+  }
+  
+  section p, section ul {
+    margin-bottom: 20px; /* Increased margin */
+    font-size: 1.2rem; /* Increased font size */
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 30px; /* Increased margin for list */
+  }
+  
+  li {
+    margin-bottom: 15px; /* Increased margin */
+  }
+  
+  /* Link Styling */
+  a {
+    color: #64ffda;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0a192f; /* Dark Blue on hover */
+    text-decoration: underline;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px; /* Adjusted padding */
+    }
+  
+    .intro h1 {
+      font-size: 2rem; /* Adjusted font size */
+    }
+  
+    .intro p {
+      font-size: 1.2rem; /* Adjusted font size */
+    }
+  
+    section h2 {
+      font-size: 1.6rem; /* Adjusted font size */
+    }
+  
+    section p, section ul {
+      font-size: 1rem; /* Adjusted font size */
+    }
+  }
+  
